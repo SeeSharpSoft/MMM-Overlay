@@ -1,0 +1,33 @@
+{
+  "name": "MMM-Overlay",
+  "version": "1.0.0",
+  "description": "A MagicMirror2 module that introduces 'overlay'",
+  "main": "MMM-Overlay.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeeSharpSoft/MMM-Overlay.git.git"
+  },
+  "keywords": [
+    "MagicMirror",
+    "module",
+    "overlay",
+    "modal"
+  ],
+  "author": "Martin Sommer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SeeSharpSoft/MMM-Overlay.git/issues"
+  },
+  "homepage": "https://github.com/SeeSharpSoft/MMM-Overlay.git#readme",
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@stylistic/eslint-plugin": "latest",
+    "eslint": "latest",
+    "globals": "latest"
+  }
+}

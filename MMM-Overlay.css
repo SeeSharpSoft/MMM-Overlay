@@ -1,0 +1,19 @@
+.region.overlay {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  opacity: .8;
+  z-index: 1000;
+  margin: 20px;
+
+  display: none;
+}
+
+.region.overlay > .container {
+  padding: 30px;
+}
+
+.region.overlay.active {
+  display: block;
+}
